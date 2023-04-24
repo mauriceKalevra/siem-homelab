@@ -2,5 +2,6 @@ from alpine:latest
 
 RUN apk add nmap
 
-CMD nmap google.de>result.txt
+RUN nmap google.de>result.txt
 
+CMD ["sleep", "infinity"]

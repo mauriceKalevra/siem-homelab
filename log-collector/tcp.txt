@@ -1,0 +1,38 @@
+17:39:05.614534 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.39258 > 2600:9000:211e:200:12:94b3:c380:93a1.https: Flags [P.], seq 3787462207:3787462246, ack 4218135126, win 131, options [nop,nop,TS val 4095894825 ecr 1553382369], length 39
+17:39:05.614724 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.35600 > 2606:4700:4400::6812:22a4.https: Flags [P.], seq 3253303260:3253303299, ack 4078033714, win 1556, options [nop,nop,TS val 2022124534 ecr 2775118838], length 39
+17:39:05.614819 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.44172 > 2606:4700::6812:82ec.https: Flags [P.], seq 333033254:333033293, ack 622873099, win 63, options [nop,nop,TS val 2709446154 ecr 1951811318], length 39
+17:39:05.614891 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.44164 > 2606:4700::6812:82ec.https: Flags [P.], seq 1529937316:1529937355, ack 3729199318, win 63, options [nop,nop,TS val 2709446154 ecr 1951811323], length 39
+17:39:05.627262 IP6 2606:4700::6812:82ec.https > 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.44172: Flags [P.], seq 1:40, ack 39, win 8, options [nop,nop,TS val 1951870040 ecr 2709446154], length 39
+17:39:05.627369 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.44172 > 2606:4700::6812:82ec.https: Flags [.], ack 40, win 63, options [nop,nop,TS val 2709446166 ecr 1951870040], length 0
+17:39:05.627485 IP6 2606:4700:4400::6812:22a4.https > 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.35600: Flags [P.], seq 1:40, ack 39, win 8, options [nop,nop,TS val 2775176906 ecr 2022124534], length 39
+17:39:05.627485 IP6 2606:4700::6812:82ec.https > 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.44164: Flags [P.], seq 1:40, ack 39, win 8, options [nop,nop,TS val 1951870041 ecr 2709446154], length 39
+17:39:05.627486 IP6 2600:9000:211e:200:12:94b3:c380:93a1.https > 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.39258: Flags [.], ack 39, win 135, options [nop,nop,TS val 1553441122 ecr 4095894825], length 0
+17:39:05.627486 IP6 2600:9000:211e:200:12:94b3:c380:93a1.https > 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.39258: Flags [P.], seq 1:40, ack 39, win 135, options [nop,nop,TS val 1553441122 ecr 4095894825], length 39
+17:39:05.627538 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.35600 > 2606:4700:4400::6812:22a4.https: Flags [.], ack 40, win 1556, options [nop,nop,TS val 2022124547 ecr 2775176906], length 0
+17:39:05.627586 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.44164 > 2606:4700::6812:82ec.https: Flags [.], ack 40, win 63, options [nop,nop,TS val 2709446166 ecr 1951870041], length 0
+17:39:05.669270 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f.39258 > 2600:9000:211e:200:12:94b3:c380:93a1.https: Flags [.], ack 40, win 131, options [nop,nop,TS val 4095894880 ecr 1553441122], length 0
+17:39:06.206750 IP 10.125.3.160.39522 > dns0.fun.uni-freiburg.de.domain: 44551+ PTR? 1.a.3.9.0.8.3.c.3.b.4.9.2.1.0.0.0.0.2.0.e.1.1.2.0.0.0.9.0.0.6.2.ip6.arpa. (90)
+17:39:06.213142 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.39522: 44551 NXDomain 0/1/0 (161)
+17:39:06.214084 IP 10.125.3.160.37708 > dns0.fun.uni-freiburg.de.domain: 40509+ PTR? f.5.0.d.a.3.5.c.8.f.8.b.c.d.4.8.1.0.0.0.8.1.5.2.0.c.7.0.1.0.0.2.ip6.arpa. (90)
+17:39:06.220158 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.37708: 40509 NXDomain* 0/1/0 (164)
+17:39:06.221436 IP 10.125.3.160.54331 > dns0.fun.uni-freiburg.de.domain: 53869+ PTR? 4.a.2.2.2.1.8.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.4.0.0.7.4.6.0.6.2.ip6.arpa. (90)
+17:39:06.225595 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.54331: 53869 NXDomain 0/1/0 (152)
+17:39:06.227112 IP 10.125.3.160.60395 > dns0.fun.uni-freiburg.de.domain: 23701+ PTR? c.e.2.8.2.1.8.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.4.6.0.6.2.ip6.arpa. (90)
+17:39:06.230939 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.60395: 23701 NXDomain 0/1/0 (152)
+17:39:06.349497 IP 10.125.3.160.52270 > 162.159.138.60.https: Flags [.], ack 2159507643, win 63, options [nop,nop,TS val 1628243165 ecr 1318262613], length 0
+17:39:06.360784 IP 162.159.138.60.https > 10.125.3.160.52270: Flags [.], ack 1, win 8, options [nop,nop,TS val 1318272640 ecr 1628182877], length 0
+17:39:07.202597 IP 10.125.3.160.35786 > 146.75.116.143.https: Flags [.], ack 1108354492, win 63, options [nop,nop,TS val 1393602844 ecr 3686019250], length 0
+17:39:07.203872 IP 10.125.3.160.55690 > dns0.fun.uni-freiburg.de.domain: 3641+ PTR? 200.200.230.132.in-addr.arpa. (46)
+17:39:07.209498 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.55690: 3641* 1/2/4 PTR dns0.fun.uni-freiburg.de. (205)
+17:39:07.211189 IP 10.125.3.160.60138 > dns0.fun.uni-freiburg.de.domain: 17481+ PTR? 160.3.125.10.in-addr.arpa. (43)
+17:39:07.213465 IP 146.75.116.143.https > 10.125.3.160.35786: Flags [.], ack 1, win 287, options [nop,nop,TS val 3686029278 ecr 1393542631], length 0
+17:39:07.213542 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.60138: 17481 NXDomain* 0/1/0 (93)
+17:39:07.215461 IP 10.125.3.160.35789 > dns0.fun.uni-freiburg.de.domain: 6919+ PTR? 60.138.159.162.in-addr.arpa. (45)
+17:39:07.219406 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.35789: 6919 NXDomain 0/1/0 (107)
+17:39:07.221047 IP 10.125.3.160.51866 > dns0.fun.uni-freiburg.de.domain: 53692+ PTR? 143.116.75.146.in-addr.arpa. (45)
+17:39:07.224675 IP dns0.fun.uni-freiburg.de.domain > 10.125.3.160.51866: 53692 NXDomain 0/1/0 (99)
+17:39:07.415941 IP 10.125.3.160.35778 > 146.75.116.143.https: Flags [.], ack 558341836, win 252, options [nop,nop,TS val 1393603058 ecr 2846561410], length 0
+17:39:07.427979 IP 146.75.116.143.https > 10.125.3.160.35778: Flags [.], ack 1, win 290, options [nop,nop,TS val 2846571438 ecr 1393542811], length 0
+17:39:08.728520 IP6 fe80::209:fff:fe09:13 > 2001:7c0:2518:1:84dc:b8f8:c53a:d05f: ICMP6, neighbor solicitation, who has 2001:7c0:2518:1:84dc:b8f8:c53a:d05f, length 32
+17:39:08.728631 IP6 2001:7c0:2518:1:84dc:b8f8:c53a:d05f > fe80::209:fff:fe09:13: ICMP6, neighbor advertisement, tgt is 2001:7c0:2518:1:84dc:b8f8:c53a:d05f, length 24
+

@@ -1,0 +1,16 @@
+---
+volumes:
+  prometheus-data:
+    driver: local
+services:
+  prometheus:
+    image: prom/prometheus:v2.37.9
+    container_name: prometheus
+    ports:
+      - 9090:9090
+    command: "--config.file=/config/prometheus.yaml"
+    volumes:
+      - ./config/prometheus.yaml:/config/prometheus.yaml:ro
+      - ./data:/prometheus
+    restart: unless-stopped
+

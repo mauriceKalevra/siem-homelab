@@ -1,2 +1,6 @@
 # siem-homelab
-A lightweight dockerized siem solution for personal use
+A siem solution for personal use, implemented with Kubernetes in Minikube.
+
+# Requirements
+- Docker
+- Kubernetes - Minikube
